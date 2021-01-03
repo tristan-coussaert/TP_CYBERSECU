@@ -1,5 +1,9 @@
-# PROJET_SPRING
+# Pour lancer le projet
 
-Repo GIT du Projet final sur SPRING
+Pour créer l'image, lancer la commande :
+docker build -t tpcybersecu .
 
-Tristan Coussaert & Gautier Couture
+Pour lancer le conteneur, lancer la commande :
+docker run -d -p 8080:8080 tpcybersecu
+
+Ce projet est une API d'un réseau social où on peut notamment créer,modifier,supprimer des utilisateurs et des messages. Ils sont stockés dans une bdd interne h2.
