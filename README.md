@@ -37,7 +37,7 @@ Créer un message en envoyant à la route /post/add un .json de cette forme en b
   "content": "Contenu du message
 }
 
-Modifier un utilisateur existant en base en renseignant son id via la route /user/{id} et envoyant les paramètres suivants dans l'url grâce à la méthode PUT : nom,prenom,email,numero
+Modifier un utilisateur existant en base en renseignant son id via la route /user/{id} et envoyant les paramètres suivants dans l'url grâce à la méthode PUT : nom,prenom,email,numero.
 
 Modifier un message existant en base en renseignant son id via la route /post/{id} et envoyant les paramètres suivants dans l'url grâce à la méthode PUT : name,content
 
